@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinstarApp", "FinstarApp\FinstarApp.csproj", "{A8FAC8F2-00CD-4380-BD3D-EDCB907BD51C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinstarApp.Domain.Core", "FinstarApp.Domain.Core\FinstarApp.Domain.Core.csproj", "{022F876A-8C91-48AF-98CF-8E565C2458A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinstarApp.Domain.Interfaces", "FinstarApp.Domain.Interfaces\FinstarApp.Domain.Interfaces.csproj", "{70947423-E68D-4E18-B6B4-1D183B3F9C4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinstarApp.Tests", "FinstarApp.Tests\FinstarApp.Tests.csproj", "{A26842F2-BE4F-44BD-BD49-030F0660E6FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinstarApp.Infrastructure.Data", "FinstarApp.Infrastructure.Data\FinstarApp.Infrastructure.Data.csproj", "{A235A1F8-218E-4DA2-8258-676D62528952}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinstarApp.KafkaConsumer", "FinstarApp.KafkaConsumer\FinstarApp.KafkaConsumer.csproj", "{7E2501B3-EDFB-4E69-BC61-2BEBC2D1B280}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8873DB81-052C-40D9-B94A-3EC151380DE0}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8FAC8F2-00CD-4380-BD3D-EDCB907BD51C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FAC8F2-00CD-4380-BD3D-EDCB907BD51C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FAC8F2-00CD-4380-BD3D-EDCB907BD51C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FAC8F2-00CD-4380-BD3D-EDCB907BD51C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022F876A-8C91-48AF-98CF-8E565C2458A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022F876A-8C91-48AF-98CF-8E565C2458A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022F876A-8C91-48AF-98CF-8E565C2458A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022F876A-8C91-48AF-98CF-8E565C2458A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70947423-E68D-4E18-B6B4-1D183B3F9C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70947423-E68D-4E18-B6B4-1D183B3F9C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70947423-E68D-4E18-B6B4-1D183B3F9C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70947423-E68D-4E18-B6B4-1D183B3F9C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26842F2-BE4F-44BD-BD49-030F0660E6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26842F2-BE4F-44BD-BD49-030F0660E6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26842F2-BE4F-44BD-BD49-030F0660E6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26842F2-BE4F-44BD-BD49-030F0660E6FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A235A1F8-218E-4DA2-8258-676D62528952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A235A1F8-218E-4DA2-8258-676D62528952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A235A1F8-218E-4DA2-8258-676D62528952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A235A1F8-218E-4DA2-8258-676D62528952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E2501B3-EDFB-4E69-BC61-2BEBC2D1B280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2501B3-EDFB-4E69-BC61-2BEBC2D1B280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2501B3-EDFB-4E69-BC61-2BEBC2D1B280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2501B3-EDFB-4E69-BC61-2BEBC2D1B280}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
