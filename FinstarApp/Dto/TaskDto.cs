@@ -2,7 +2,7 @@
 
 namespace FinstarApp.Dto;
 
-public readonly struct TaskDto
+public record TaskDto
 {
     public Guid Id { get; }
 
